@@ -1,0 +1,113 @@
+body {
+  color: #575F7D;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  /* background-color: #efefef; */
+  background-color: rgb(228, 228, 228);
+  text-align: center;
+}
+
+h1 {
+  color: #575F7D;
+  font_size: 32px;
+  font-weight: 900;
+}
+
+img {
+  width: 150px;
+  border-radius: 20%;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+
+a.discover {
+  text-decoration: none;
+  color: aquamarine;
+  background-color: #575F7D;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+a.follow {
+  text-decoration: none;
+  color: #575F7D;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 17px;
+}
+
+a.discover:hover {
+  background-color: aquamarine;
+  color: #575F7D;
+}
+
+a.follow:hover {
+  background-color: aquamarine;
+}
+
+ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+li {
+  list-style-type: none;
+  /* justify-content: space-between; */
+  }
+
+.card-white {
+  background-color: white;
+  width: 700px;
+  margin: 20px auto;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  }
+
+  .fa-brands {
+    font-size: 30px;
+    padding: 10px;
+  }
+
+
+  @media (max-width: 1281px) {
+    /* Pour un écran < 960px, cette classe CSS s'applique */
+    .card-white {
+      width: 600px;
+    }
+  }
+
+  @media (max-width: 960px) {
+    /* Pour un écran < 960px, cette classe CSS s'applique */
+    .card-white {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* Pour un écran < 720px, cette classe CSS s'applique */
+    .card-white {
+      width: 400px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* Pour un écran < 540px, cette classe CSS s'applique */
+    .card-white {
+      width: 300px;
+    }
+    p {
+      font-size: 15px;
+    }
+    a.discover {
+      text-decoration: none;
+      font-size: 18px;
+      color: aquamarine;
+      background-color: #575F7D;
+      padding: 14px;
+      border-radius: 14px;
+      text-align: center;
+    }
+  }
